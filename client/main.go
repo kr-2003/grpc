@@ -25,5 +25,7 @@ func main() {
 
 	// callSayHello(client) ---> unary
 
-	callSayHelloServerStream(client, names)
+	// callSayHelloServerStream(client, names)
+
+	callSayHelloClientStream(client, names)
 }
